@@ -20,5 +20,20 @@ def mainn(arr, k):
             if sum==k:
                 leng = max(leng, j-i+1)
     return leng
+def mmain(arr, k):
+    n = len(arr)
+    l =  r = 0
+    length = 0 
+    sum = 0
+    while r<n:
+        sum += arr[r]
+        while sum>k:
+            sum -= arr[l]
+            l+=1
+        if sum==k:
+            length = max(length, r-l+1)
+        r+=1
+    return length
+
 if __name__ == "__main__":
-    print(mainn([10, 5, 2, 7, 1, 9], 15))
+    print(mmain([10, 5, 2, 7, 1, 9], 15))
