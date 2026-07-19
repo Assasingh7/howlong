@@ -1,12 +1,3 @@
-
-Find the second largest element recursively.
-Count even numbers in an array.
-Count odd numbers in an array.
-Check whether all elements are positive.
-Find the index of the maximum element.
-Check whether two arrays are identical.
-Copy one array into another recursively.
-Merge two sorted arrays recursively.
 Rotate an array by one position recursively.
 Check whether an array is a palindrome.
 Compress a string.
