@@ -10,6 +10,25 @@ def main(arr):
                 return list(perm[i+1])
     return arr
 
+def mainn(arr):
+    index = -1
+    n = len(arr)
+    for i in range(n-2, -1, -1):
+        if arr[i]<arr[i+1]:
+            print(i, i+1)
+            index = i
+            break
+    if index == -1:
+        arr.reverse()
+        return
+    for i in range(n-1, index, -1):
+        if arr[i]>arr[index]:
+            print("a", i, index)
+            arr[i], arr[index] = arr[index], arr[i]
+            break
+    arr[index+1:] = reversed(arr[index+1:])
+    return
 if __name__ == "__main__":
     arr = [1, 2, 3]
-    print(main(arr))
+    mainn(arr)
+    print(arr)

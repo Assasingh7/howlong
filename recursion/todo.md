@@ -1,5 +1,3 @@
-Rotate an array by one position recursively.
-Check whether an array is a palindrome.
 Compress a string.
 "aaabbc" → "a3b2c1"
 Remove consecutive duplicate characters.
