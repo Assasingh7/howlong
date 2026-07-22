@@ -13,7 +13,6 @@ Print all substrings recursively.
 Generate all binary strings of length n.
 Generate all decimal strings of length n.
 Generate all hexadecimal strings.
-Generate all subsets of an array.
 Generate subsets whose size is exactly k.
 Count subsets.
 Generate subsets with duplicate elements.
