@@ -19,8 +19,6 @@ Generate subsets with duplicate elements.
 Print all subsequences in lexicographical order.
 Count subsequences with even sum.
 Generate all increasing subsequences.
-Generate all valid parentheses.
-Letter combinations of a phone number.
 Dice throw combinations.
 All paths in a maze.
 Maze with obstacles.
