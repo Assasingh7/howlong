@@ -1,7 +1,6 @@
 def heapify(arr, n, i):
 
     while True:
-
         # Find children
         left = 2 * i + 1
         right = 2 * i + 2
