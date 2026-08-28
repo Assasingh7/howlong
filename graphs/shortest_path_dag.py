@@ -83,6 +83,5 @@ if __name__ == "__main__":
 
     # Call the function and store the result
     result = obj.shortestPath(N, M, edges)
-
     # Print the result
     print(' '.join(map(str, result)))
